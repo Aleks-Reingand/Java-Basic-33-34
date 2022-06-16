@@ -1,4 +1,4 @@
-package com.telran.berlin.prictice;
+package com.telran.berlin.practice;
 
 public class Main {
     public static void main(String[] args) {
