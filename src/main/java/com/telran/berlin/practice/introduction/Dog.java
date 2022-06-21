@@ -1,4 +1,4 @@
-package com.telran.berlin.practice;
+package com.telran.berlin.practice.introduction;
 
 public class Dog {
     String breed;
