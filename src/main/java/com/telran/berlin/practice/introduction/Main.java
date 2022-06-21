@@ -1,5 +1,7 @@
 package com.telran.berlin.practice.introduction;
 
+import com.telran.berlin.homework.introduction.Cat;
+
 public class Main {
     public static void main(String[] args) {
         // boolean - Логический тип данных представляет только (true, false) - один бит
@@ -43,6 +45,13 @@ public class Main {
 
         Dog myDog = new Dog();
         myDog.setBreed("kolli");
+        Cat cat = new Cat();
+        System.out.println(cat.getName());
+        System.out.println(cat.getAge());
+        cat.setName("Myrka");
+        cat.setAge((int)4.5);
+        System.out.println(cat.getName());
+        System.out.println(cat.getAge());
 
         System.out.println(myDog.getBreed());
 
