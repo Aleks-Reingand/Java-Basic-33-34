@@ -20,7 +20,5 @@ public class MyMath {
         double res = num/6;
         System.out.println(res);
 
-
     }
-
 }
