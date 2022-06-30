@@ -3,18 +3,13 @@ package com.telran.berlin.game.hero;
 import com.telran.berlin.game.constant.Constant;
 
 public class Elf {
-
     private long id;
-
     private String name;
     private boolean gender;
     private int level;
     private int fortune;
-
     private int power;
-
     private int charisma;
-
     private int magic;
 
     public Elf() {
@@ -28,12 +23,12 @@ public class Elf {
         this.magic = Constant.ELF_MAGIC;
     }
 
-    /*public Elf(long id, int power, int charisma, int magic) {
-        this.id = id;
-        this.power = power;
-        this.charisma = charisma;
-        this.magic = magic;
-    }*/
+//    public Elf(long id, int power, int charisma, int magic) {
+//        this.id = id;
+//        this.power = power;
+//        this.charisma = charisma;
+//        this.magic = magic;
+//    }
 
 
     public long getId() {
@@ -70,5 +65,29 @@ public class Elf {
 
     public void setFortune(int fortune) {
         this.fortune = fortune;
+    }
+
+    public int getPower() {
+        return power;
+    }
+
+    public void setPower(int power) {
+        this.power = power;
+    }
+
+    public int getCharisma() {
+        return charisma;
+    }
+
+    public void setCharisma(int charisma) {
+        this.charisma = charisma;
+    }
+
+    public int getMagic() {
+        return magic;
+    }
+
+    public void setMagic(int magic) {
+        this.magic = magic;
     }
 }
