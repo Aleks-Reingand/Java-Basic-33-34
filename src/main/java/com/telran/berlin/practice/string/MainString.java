@@ -31,6 +31,12 @@ public class MainString {
         System.out.println(elf2);
 
 
+        String str1 = "str1";
+        String str2 = str1;
+        str2 = "r";
+        str1.charAt(0);
+
+
 
 
     }
